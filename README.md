@@ -1,9 +1,12 @@
 
+QCoinClub Whitepaper
+====================
 
-v0.6.1
+v0.6.2
 
 Author: Bo Dziewierz <bo@qcoinclub.com>
 
+- [QCoinClub Whitepaper](#qcoinclub-whitepaper)
 - [1. Abstract](#1-abstract)
 - [2. Disclaimer](#2-disclaimer)
 - [3. QCoinClub](#3-qcoinclub)

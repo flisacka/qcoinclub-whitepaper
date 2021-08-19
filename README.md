@@ -1,8 +1,46 @@
 
-# QCoinClub Whitepaper 
-v0.5
+
+v0.6
 
 Author: Bo Dziewierz <bo@qcoinclub.com>
+
+# Table of contents
+
+- [Table of contents](#table-of-contents)
+- [Abstract](#abstract)
+- [Disclaimer](#disclaimer)
+- [QCoinClub](#qcoinclub)
+  - [QCoin](#qcoin)
+  - [QCoinClubPortal](#qcoinclubportal)
+  - [Access to the portal](#access-to-the-portal)
+  - [Unique products & services](#unique-products--services)
+  - [Third-party providers](#third-party-providers)
+  - [Fees](#fees)
+- [QCoin token economy](#qcoin-token-economy)
+  - [Supply](#supply)
+  - [Distribution](#distribution)
+  - [Governance](#governance)
+    - [No minting](#no-minting)
+    - [No mining](#no-mining)
+    - [No burning](#no-burning)
+    - [Free trading](#free-trading)
+    - [QCoin as a governance token](#qcoin-as-a-governance-token)
+- [Team](#team)
+  - [Engineering: Bo Dziewierz](#engineering-bo-dziewierz)
+  - [Partnerships: Kay Pankowska](#partnerships-kay-pankowska)
+- [Roadmap](#roadmap)
+  - [Aug 2021: Release of the QCoin Smart Contract](#aug-2021-release-of-the-qcoin-smart-contract)
+  - [Sept 2021: Start of provider onboarding](#sept-2021-start-of-provider-onboarding)
+  - [Nov 2021: Release of the QCoinClubPortal v1.0](#nov-2021-release-of-the-qcoinclubportal-v10)
+  - [Dec 2021: Token air-drop](#dec-2021-token-air-drop)
+  - [Jan 2022: Initial token crowdsale](#jan-2022-initial-token-crowdsale)
+  - [Feb 2022: Public trading](#feb-2022-public-trading)
+  - [Jun 2022: QCoinClubPortal v2.0](#jun-2022-qcoinclubportal-v20)
+- [Architecture](#architecture)
+  - [Hybrid Dapp](#hybrid-dapp)
+  - [Microservices layer](#microservices-layer)
+  - [Smart contract](#smart-contract)
+  - [Back-office applications](#back-office-applications)
 # Abstract
 
 QCoinClub is a members-only luxury lifestyle club and concierge service backed by QCoin (QCN), a tradable Ethereum token.  
@@ -77,7 +115,7 @@ To incentivize third parties to join the network (and design unique experiences 
 
 Additionally, the vesting mechanism is in place to ensure coins are released in stages after a certain amount of value is delivered by the third-party provider.
 
-Ongoing development of the benefit offered is ensured. The long-term aim is to open this process as much as possible to the club members, whereby it's the members who decide on the type of services and products that are offered. The governance of this model is to be further discussed and developed.
+Ongoing development of the benefits offered is ensured. The long-term aim is to open this process as much as possible to the club members, whereby it's the members who decide on the type of services and products that are offered. The governance of this model is to be further discussed and developed.
 
 ## Fees
 
@@ -110,19 +148,19 @@ QCoin's Smart Contract implements only the most essential ERC-20 functions. This
 
 As a result, there are no functions in the smart contract, apart from what ERC-20 requires, that would leave the supply, tradability or value of the coin in the hands of a single entity or individual.
 
-### No Minting
+### No minting
 
 QCoin has been preminted to the exact amount of 21000000 QCN with 18 decimals. QCoin smart contract doesn't allow minting of any more tokens. This decision has been made to guarantee the exclusivity of the QCoinClub and also to ensure the decentralization of the coin itself. Minting will never be a factor that affects the supply and the market price of the token.
 
-### No Mining
+### No mining
 
 No new QCoins will ever be mined. The supply is exactly 21000000 QCN and that supply is preminted on the blockchain.
 
-### No Burning
+### No burning
 
 QCoin contract doesn't have any built-in token burning functions. Although "burning" via transferring them to inactive accounts is still possible due to the very nature of the blockchain itself, the smart contract doesn't support any explicit burn functions.
 
-### Free-Trading
+### Free trading
 
 The QCoin is tradabale like other ERC-20 assets. Although initially a number of coins will be kept by the club in a reserved pool to be used as an incentive for service providers, no restrictions will be introduced to the tradability of the QCoin.
 
@@ -194,7 +232,7 @@ QCoinClub's architecture consists of a number of high-level architectural compon
 
 QCoinClubPortal is a member front-end, architected in a "hybrid DApp" model. It means that although it is built as a traditional centralized web application, it does have elements that interact directly (via web3) and rely on decentralized Smart Contracts running on Ethereum blockchain.
 
-## Microservices Layer
+## Microservices layer
 
 The microservices layer provides a set of centralized services for the QCoinClubPortal front-end. The web application communicates with the microservices via the RESTful API interface using GraphQL. 
 

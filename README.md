@@ -1,12 +1,11 @@
 
-QCoinClub Whitepaper
+QCoinClub Whitepaper <!-- omit in toc -->
 ====================
 
 v0.6.2
 
 Author: Bo Dziewierz <bo@qcoinclub.com>
 
-- [QCoinClub Whitepaper](#qcoinclub-whitepaper)
 - [1. Abstract](#1-abstract)
 - [2. Disclaimer](#2-disclaimer)
 - [3. QCoinClub](#3-qcoinclub)
@@ -26,16 +25,16 @@ Author: Bo Dziewierz <bo@qcoinclub.com>
     - [4.3.4. Free trading](#434-free-trading)
     - [4.3.5. QCoin as a governance token](#435-qcoin-as-a-governance-token)
 - [5. Team](#5-team)
-  - [5.1. Engineering: Bo Dziewierz](#51-engineering-bo-dziewierz)
-  - [5.2. Partnerships: Kay Pankowska](#52-partnerships-kay-pankowska)
+  - [5.1. Engineering](#51-engineering)
+  - [5.2. Partnerships](#52-partnerships)
 - [6. Roadmap](#6-roadmap)
-  - [6.1. Aug 2021: Release of the QCoin Smart Contract](#61-aug-2021-release-of-the-qcoin-smart-contract)
-  - [6.2. Sept 2021: Start of provider onboarding](#62-sept-2021-start-of-provider-onboarding)
-  - [6.3. Nov 2021: Release of the QCoinClubPortal v1.0](#63-nov-2021-release-of-the-qcoinclubportal-v10)
-  - [6.4. Dec 2021: Token air-drop](#64-dec-2021-token-air-drop)
-  - [6.5. Jan 2022: Initial token crowdsale](#65-jan-2022-initial-token-crowdsale)
-  - [6.6. Feb 2022: Public trading](#66-feb-2022-public-trading)
-  - [6.7. Jun 2022: QCoinClubPortal v2.0](#67-jun-2022-qcoinclubportal-v20)
+  - [6.1. Release of the QCoin Smart Contract - Aug 2021](#61-release-of-the-qcoin-smart-contract---aug-2021)
+  - [6.2. Start of provider onboarding - Sept 2021](#62-start-of-provider-onboarding---sept-2021)
+  - [6.3. Release of the QCoinClubPortal v1.0 - Nov 2021](#63-release-of-the-qcoinclubportal-v10---nov-2021)
+  - [6.4. Token air-drop - Dec 2021](#64-token-air-drop---dec-2021)
+  - [6.5. Initial token crowdsale - Jan 2022](#65-initial-token-crowdsale---jan-2022)
+  - [6.6. Public trading - Feb 2022](#66-public-trading---feb-2022)
+  - [6.7. QCoinClubPortal v2.0 - Jun 2022](#67-qcoinclubportal-v20---jun-2022)
 - [7. Architecture](#7-architecture)
   - [7.1. Hybrid Dapp](#71-hybrid-dapp)
   - [7.2. Microservices layer](#72-microservices-layer)
@@ -50,6 +49,7 @@ Members get access to the most exclusive venues, events, products, and experienc
 The service is provided via mobile web application, QCoinClubPortal. Access to the portal is granted only to the club members, and club member privileges are awarded only to holders of at least 1 QCN.
 
 The QCoin token has been preminted to the amount of exactly 21000000 with 18 decimals. It will be initially distributed via air-drop and Gnosis Auction crowdsale. Separate pools will be reserved for distributions among club service and product providers and as QCoinClub reserve to cover future initiatives.
+
 # 2. Disclaimer
 
 The information shared in this whitepaper is not all-encompassing or comprehensive and does not in any way intend to form a contractual relationship. The primary purpose of this whitepaper is to provide potential club members, club service providers, and other QCoin holders with information that helps in the analysis of the project and making an informed decision before obtaining QCoin.
@@ -59,9 +59,11 @@ We strongly advocate a careful study of this whitepaper and all the documents re
 The QCoin tokens are functional utility tokens designed for use only on the QCoinClubPortal and other QCoinClub software products that are yet to be developed. 
 
 The tokens are not securities. In the event that you purchase QCoin, your purchase cannot be refunded or exchanged. Tokens do not entitle you to any equity, governance, voting, or similar right or entitlement in the QCoinClub, Flisacka Sp. z o. o. or in any of its affiliated companies.
+
 # 3. QCoinClub
 
 QCoinClub is a global, members-only luxury lifestyle club and concierge service backed by QCoin, a tradable ERC-20 token. Members get access to exclusive venues, events, products, and experiences that are not available via other channels.
+
 ## 3.1. QCoin
 
 QCoin (QCN) is a limited supply cryptocurrency based on the Ethereum blockchain and the ERC-20 standard. It has three practical functions for club members and stakeholders:
@@ -73,11 +75,13 @@ QCoin (QCN) is a limited supply cryptocurrency based on the Ethereum blockchain 
 It's important to highlight that QCoin has not been designed as an instrument that can be used to pay for products or services (inside or outside of the club). Instead, it's a token proving one's membership in the club.
 
 Additionally, given the tradable nature of the token (and the fact it can appreciate in value), Luxury lifestyle businesses receive a certain amount of QCoin for participation in the project, giving them a stake in the total market value of the QCoin itself and an incentive to join the project.
+
 ## 3.2. QCoinClubPortal
 
 QCoinClub's benefits are facilitated by the electronic portal utilizing both Ethereum blockchain as well as traditional web software stack in the backend. The portal is the main channel of interaction between members, club staff, and service providers. It's also a tool to browse and reserve the luxury services and products available to members.
 
 Ongoing development of the portal is carried out; with each subsequent iteration providing a certain number of new features, improvements, and bug fixes. The long-term aim is to open the development roadmap as much as possible to the club members, whereby it's the members who decide on the priority of work. The governance of this model is to be further discussed and developed.
+
 ## 3.3. Access to the portal
 
 The QCoinClubPortal uses Ethereum wallets to authenticate the members and also to provide information about the tier of their membership. In practical terms, to access the system an individual must acquire and transfer QCoin to their non-custodial wallet and then connect the wallet to the portal. The more QCoin an individual holds, the higher the membership tier he/she gets. Individuals with 0 QCN in their wallets are considered non-members and denied access to the portal.
@@ -126,9 +130,11 @@ Although cryptocurrency payments are not currently being considered, they are no
 Apart from third-party fees and transaction fees, no extra membership payments are charged.
 
 # 4. QCoin token economy
+
 ## 4.1. Supply
 
 The total supply of the QCoin is set to be exactly 21000000 (21 mln) with 18 decimals.
+
 ## 4.2. Distribution
 
 The initial supply of QCoin has been divided into three pools, each with a specific purpose:
@@ -172,21 +178,22 @@ QCoin is not a security. As such, it does not guarantee equity, co-ownership, vo
 
 # 5. Team
 
-QCoinClub has been founded by a team of luxury travel and leisure veterans:
-## 5.1. Engineering: Bo Dziewierz
+QCoinClub has been founded by a team of luxury travel and leisure veterans with current luxury travel and lifestyle business experience.
+## 5.1. Engineering
 
-https://www.linkedin.com/in/bdziewierz/ 
+Bo Dziewierz - https://www.linkedin.com/in/bdziewierz/ 
 
-## 5.2. Partnerships: Kay Pankowska
+## 5.2. Partnerships
 
-https://www.linkedin.com/in/katarzynapankowska
+Kay Pankowska - https://www.linkedin.com/in/katarzynapankowska
 
 The team is growing and this whitepaper will be updated in the next versions to reflect that.
+
 # 6. Roadmap
 
-## 6.1. Aug 2021: Release of the QCoin Smart Contract
+## 6.1. Release of the QCoin Smart Contract - Aug 2021
 ERC-20 Smart Contract released on Ethereum MainNet.
-## 6.2. Sept 2021: Start of provider onboarding
+## 6.2. Start of provider onboarding - Sept 2021
 
 Provider onboarding starts in August 2021 and continue indefinitely. The roadmap for provider onboarding is as follows:  
 
@@ -194,10 +201,11 @@ Provider onboarding starts in August 2021 and continue indefinitely. The roadmap
 * 25 providers onboarded by Feb 2022
 * 75 - Jun 2022
 * 200 - Dec 2022
-## 6.3. Nov 2021: Release of the QCoinClubPortal v1.0
+## 6.3. Release of the QCoinClubPortal v1.0 - Nov 2021
 
 The development of the QCoinClubPortal starts in August 2021. The first production release of the software (v1.0) is to become available to all QCoin holders by the end of Nov 2021.
-## 6.4. Dec 2021: Token air-drop
+
+## 6.4. Token air-drop - Dec 2021
 
 The first QCoin air-drop is to be held in December 2021.
 
@@ -205,7 +213,7 @@ The aim of the air-drop is to build an initial community of QCoinClubPortal user
 
 1000 QCN to be distributed this way.
 
-## 6.5. Jan 2022: Initial token crowdsale
+## 6.5. Initial token crowdsale - Jan 2022
 
 The token auction event is to be carried out on Gnosis Auction. That aim is to provide a fair mechanism of initial price discovery. 999000 (999k) QCN to be sold via this method.
 
@@ -219,10 +227,10 @@ The funds raised via the crowdsale event will be used to secure resources requir
 Additional rounds of crowdsales are to be considered in the future to fund new projects, initiatives, or developments inside QCoinClub.
 
 In case future rounds are held, tokens from the QcoinClub reserve pool will be traded.
-## 6.6. Feb 2022: Public trading
+## 6.6. Public trading - Feb 2022
 
 Token available for trade on Uniswap and other popular exchanges.
-## 6.7. Jun 2022: QCoinClubPortal v2.0
+## 6.7. QCoinClubPortal v2.0 - Jun 2022
 
 The next major version QCoinclubPortal is released starting an ongoing release cycle. New releases to include features and improvements developed to answer the future needs of QCoinClub members.
 # 7. Architecture

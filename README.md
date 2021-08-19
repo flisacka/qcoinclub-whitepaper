@@ -1,6 +1,8 @@
 
 # QCoinClub Whitepaper 
 v0.5
+
+Author: Bo Dziewierz <bo@qcoinclub.com>
 # Abstract
 
 QCoinClub is a members-only luxury lifestyle club and concierge service backed by QCoin (QCN), a tradable Ethereum token.  

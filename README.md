@@ -84,13 +84,13 @@ QCoinClub is the embodiment of our vision: a global, members-only luxury lifesty
 QCoin (QCN) is a utility cryptocurrency implemented on the Ethereum blockchain using the ERC-20 standard. It's a backbone of the QCoinClub that enables us to meet our key objectives. To do so it leverages the key capabilties of ERC-20 and Ethereum: 
 * cross-border membership transferability, 
 * decentralised exchange that doesn't require any third party to act as an intermediary
-* pseudoanonymity of parties in the network.
+* pseudonymity of parties in the network.
 
 In practice, QCoin has three main functions for club members and stakeholders:
 
 1. It is a membership token that authenticates members and authorizes access to QCoinClub's benefits.
 2. It stores the QCoinClub membership tier information: 1 QCN = Tier 1 Member, 2 QCN = Tier 2 Member, 3 QCN = Tier 3 Member, and so on.
-3. It is also tradeable in a trustless and pseudoanonymous manner, with the potential to appreciate in value and become an investment in itself.
+3. It is also tradeable in a trustless and pseudonymous manner, with the potential to appreciate in value and become an investment in itself.
 
 Aditionally, given the tradable nature of the token (and the fact it can appreciate in value), Luxury lifestyle businesses receive a certain amount of QCoin for participation in the project, giving them a stake in the total market value of the QCoin itself and an incentive to join the project.
 
@@ -99,7 +99,7 @@ Please note, that altough intially the QCoin will not be used as a payment instr
 
 QCoinClub's benefits and services are facilitated by the electronic portal utilizing both Ethereum blockchain as well as traditional web software stack in the backend. The portal is the main channel of interaction between members, club staff, and service providers. It's also a tool to browse and reserve the luxury services and products available to members.
 
-the development of the portal is ongoing, with each subsequent iteration providing a certain number of new features, improvements, and bug fixes. The long-term aim is to open the development roadmap as much as possible to the club members, whereby it's the members who decide on the priority of work. The governance of this model is to be further discussed and developed.
+The development of the portal is ongoing, with each subsequent iteration providing a certain number of new features, improvements, and bug fixes. The long-term aim is to open the development roadmap as much as possible to the club members, whereby it's the members who decide on the priority of work. The governance of this model is to be further discussed and developed.
 
 ## 5.3. Access to the portal
 
@@ -120,7 +120,7 @@ The product types offered by the club include, but are not limited to:
 * VIP places at cultural and sports events,
 * private concerts,
 * private celebrity events,
-* pre-launch access to luxury fashion products.
+* pre-launch access to luxury fashion products,
 * Michelin-star and gourmet dining,
 * 5-star superior accommodation,
 * personal health and wellbeing,

@@ -199,13 +199,6 @@ QCoin is not a security. As such, it does not guarantee equity, co-ownership, vo
 # 7. Team
 
 QCoinClub has been founded by a team of luxury travel and leisure veterans with current luxury travel and lifestyle business experience.
-## 7.1. Engineering
-
-Bo Dziewierz - https://www.linkedin.com/in/bdziewierz/ 
-
-## 7.2. Partnerships
-
-Kay Pankowska - https://www.linkedin.com/in/katarzynapankowska
 
 The team is growing and this whitepaper will be updated in the next versions to reflect that.
 

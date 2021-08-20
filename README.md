@@ -81,7 +81,10 @@ We have set out to achieve the following set of objectives that support our visi
 QCoinClub is the embodiment of our vision: a global, members-only luxury lifestyle club and concierge service backed by the Ethereum blockchain. Through the club, members get access to the unique concierge service and exclusive venues, events, products and experiences that are not available via other channels.
 ## 5.1. QCoin
 
-QCoin (QCN) is a utility cryptocurrency implemented on the Ethereum blockchain using the ERC-20 standard. It's a backbone of the QCoinClub that enables us to meet our key objectives. To do so it leverages key capabilties of ERC-20 and Ethereum, like cross-border membership transferability, decentralised exchange that doesn't require any third party to act as an intermediary, and also pseudoanonymity of parties in the network.
+QCoin (QCN) is a utility cryptocurrency implemented on the Ethereum blockchain using the ERC-20 standard. It's a backbone of the QCoinClub that enables us to meet our key objectives. To do so it leverages the key capabilties of ERC-20 and Ethereum: 
+* cross-border membership transferability, 
+* decentralised exchange that doesn't require any third party to act as an intermediary
+* pseudoanonymity of parties in the network.
 
 In practice, QCoin has three main functions for club members and stakeholders:
 
@@ -122,6 +125,7 @@ The product types offered by the club include, but are not limited to:
 * 5-star superior accommodation,
 * personal health and wellbeing,
 * personal coaching and training,
+* personal shopping,
 * luxury interior design services for homes, yachts, jets, etc,
 * privately commissioned art and music,
 * private travel advisory,

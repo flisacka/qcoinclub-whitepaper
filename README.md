@@ -281,6 +281,3 @@ Working in conjunction with standard capabilities of Ethereum blockchain QCoin s
 ## 9.4. Back-office applications
 
 QCoinClub will also include a number of back-office business applications, including a Content Management System (CMS), Order Management System (OMS), Business Information System (BI/MI), etc.
-
-# 10. Conclusion
-

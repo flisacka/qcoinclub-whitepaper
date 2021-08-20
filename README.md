@@ -28,8 +28,7 @@ Author: Bo Dziewierz <bo@qcoinclub.com>
     - [6.3.5. QCoin as a governance token](#635-qcoin-as-a-governance-token)
 - [7. Team](#7-team)
   - [7.1. Engineering](#71-engineering)
-  - [7.2. Partnerships](#72-partnerships)
-  - [7.3. Business entity](#73-business-entity)
+  - [7.2. Business entity](#73-business-entity)
 - [8. Roadmap](#8-roadmap)
   - [8.1. Release of the QCoin Smart Contract - Aug 2021](#81-release-of-the-qcoin-smart-contract---aug-2021)
   - [8.2. Start of provider onboarding - Sept 2021](#82-start-of-provider-onboarding---sept-2021)
@@ -200,9 +199,12 @@ QCoin is not a security. As such, it does not guarantee equity, co-ownership, vo
 
 QCoinClub has been founded by a team of luxury travel and leisure veterans with current luxury travel and lifestyle business experience.
 
+## 7.1 Engineering
+Bo Dziewierz - https://www.linkedin.com/in/bdziewierz/
+
 The team is growing and this whitepaper will be updated in the next versions to reflect that.
 
-## 7.3. Business entity
+## 7.2. Business entity
 
 The business entity that manages QCoinClub is Flisacka Sp.z o. o.
 # 8. Roadmap

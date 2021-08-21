@@ -206,7 +206,8 @@ The team is growing and this whitepaper will be updated in the next versions to 
 
 ## 7.2. Business entity
 
-The business entity that manages QCoinClub is Flisacka Sp.z o. o.
+The business entity managing QCoinClub is Flisacka Sp.z o. o., a limited company registered in Poland under KRS number 0000883803
+
 # 8. Roadmap
 
 ## 8.1. Release of the QCoin Smart Contract - Aug 2021

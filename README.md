@@ -42,7 +42,7 @@ Author: Bo Dziewierz <bo@qcoinclub.com>
   - [9.2. Microservices layer](#92-microservices-layer)
   - [9.3. Smart contract](#93-smart-contract)
   - [9.4. Back-office applications](#94-back-office-applications)
-- [10. Conclusion](#10-conclusion)
+
 # 1. Abstract
 
 QCoinClub is a members-only luxury lifestyle club and concierge service backed by QCoin (QCN), a tradable Ethereum token.  

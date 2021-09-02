@@ -48,7 +48,7 @@ QCoinClub is a members-only luxury lifestyle club and concierge service backed b
 
 Members get access to the most exclusive venues, events, products, and experiences that are not available via other channels. We ensure the uniqueness of the services and products by asking selected top lifestyle brands to design unique experiences exclusively for us.
 
-The service is provided via mobile web application, QCoinClubPortal. Access to the portal is granted only to the club members, and club member privileges are awarded only to holders of at least 1000 QCN (Tier 1 membership).
+The service is provided via mobile web application, QCoinClubPortal. Access to the portal is granted only to the club members, and club member privileges are awarded only to holders of at least 100 QCN (Tier 1 membership).
 
 The QCoin token has been preminted to the amount of exactly 21000000 with 18 decimals. It will be initially distributed via air-drop and via Uniswap trading. Separate pools will be reserved for distributions among club service and product providers and as QCoinClub reserve to cover future initiatives.
 
@@ -108,9 +108,9 @@ QCoin can be purchased via popular cryptocurrency exchanges on the current marke
 The following membership tiering system has been put in place:
 | Min. QCN | Tier |
 | --- | --- |
-| 1000 | 1 |
-| 10000 | 2 |
-| 100000 | 3 | 
+| 100 | 1 |
+| 1000 | 2 |
+| 10000 | 3 | 
 
 There is no other way of becoming a club member than obtaining at least one thousand QCoin, which is equivalent to Tier 1 Membership.
 
@@ -164,15 +164,15 @@ The total supply of the QCoin is set to be exactly 21000000 (21 mln) with 18 dec
 
 The initial supply of QCoin has been divided into number of pools, each with a specific purpose:
 
-| Pool | Percentage | Purpose |
-| --- | --- | --- |
-| 4200000 | 20% | Initial liqudity pool to facilitate public trading with an initial 3 years developer lock. |
-| 16800000 | 80% | Pool reserved as QCoin club reserve, used for third party supplier onboarding, air-drops, etc. |
+| Pool | Purpose |
+| --- | --- |
+| 100000 | Initial liqudity pool to facilitate public trading on Uniswap with an initial 3 years developer lock. |
+| 20900000 | Pool used for third party supplier onboarding, air-drops, expanding liquidity pools, etc. |
 ## 6.3. Liquidity & tradability
 
 The QCoin is tradabale like other ERC-20 assets. Although initially a number of coins will be kept by the club in a reserved pool to be used as an incentive for service providers, no restrictions will be introduced to the tradability of the QCoin.
 
-The coin is traded on Uniswap. Initial pool of 4200000 is to be reserved as the Liquidity Pool to start trading. The inital price of the QCoin has been set to 0.0001 ETH per token. LP token will be time locked for 3 years initially.
+The coin is traded on Uniswap. Initial pool of 100000 is to be reserved as the Liquidity Pool to start trading. The inital price of the QCoin has been set to 0.0001 ETH per token. LP token will be time locked for 3 years initially.
 ## 6.4. Governance
 
 QCoin's Smart Contract implements only the most essential ERC-20 functions. This has been decided to meet the key design goals for the QCoin token: 

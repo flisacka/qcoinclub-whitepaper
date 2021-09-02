@@ -2,7 +2,7 @@
 QCoinClub Whitepaper <!-- omit in toc -->
 ====================
 
-v0.7
+v0.8 (Draft - This is not the final version!)
 
 Author: Bo Dziewierz <bo@qcoinclub.com>
 
@@ -31,11 +31,11 @@ Author: Bo Dziewierz <bo@qcoinclub.com>
   - [7.2. Business entity](#72-business-entity)
 - [8. Roadmap](#8-roadmap)
   - [8.1. Release of the QCoin Smart Contract - Aug 2021](#81-release-of-the-qcoin-smart-contract---aug-2021)
-  - [Initial liquidity provision](#initial-liquidity-provision)
-  - [8.2. Start of provider onboarding - Sept 2021](#82-start-of-provider-onboarding---sept-2021)
-  - [8.3. Release of the QCoinClubPortal v1.0 - Nov 2021](#83-release-of-the-qcoinclubportal-v10---nov-2021)
-  - [8.4. Token air-drop - Dec 2021](#84-token-air-drop---dec-2021)
-  - [8.7. QCoinClubPortal v2.0 - Jun 2022](#87-qcoinclubportal-v20---jun-2022)
+  - [8.2. Initial liquidity provision - Sep 2021](#82-initial-liquidity-provision---sep-2021)
+  - [8.3. Start of provider onboarding - Sept 2021](#83-start-of-provider-onboarding---sept-2021)
+  - [8.4. Release of the QCoinClubPortal v1.0 - Nov 2021](#84-release-of-the-qcoinclubportal-v10---nov-2021)
+  - [8.5. Token air-drop - Nov 2021](#85-token-air-drop---nov-2021)
+  - [8.6. QCoinClubPortal v2.0 - Jun 2022](#86-qcoinclubportal-v20---jun-2022)
 - [9. Architecture](#9-architecture)
   - [9.1. Hybrid Dapp](#91-hybrid-dapp)
   - [9.2. Microservices layer](#92-microservices-layer)
@@ -48,9 +48,9 @@ QCoinClub is a members-only luxury lifestyle club and concierge service backed b
 
 Members get access to the most exclusive venues, events, products, and experiences that are not available via other channels. We ensure the uniqueness of the services and products by asking selected top lifestyle brands to design unique experiences exclusively for us.
 
-The service is provided via mobile web application, QCoinClubPortal. Access to the portal is granted only to the club members, and club member privileges are awarded only to holders of at least 1 QCN.
+The service is provided via mobile web application, QCoinClubPortal. Access to the portal is granted only to the club members, and club member privileges are awarded only to holders of at least 1000 QCN (Tier 1 membership).
 
-The QCoin token has been preminted to the amount of exactly 21000000 with 18 decimals. It will be initially distributed via air-drop and Gnosis Auction crowdsale. Separate pools will be reserved for distributions among club service and product providers and as QCoinClub reserve to cover future initiatives.
+The QCoin token has been preminted to the amount of exactly 21000000 with 18 decimals. It will be initially distributed via air-drop and via Uniswap trading. Separate pools will be reserved for distributions among club service and product providers and as QCoinClub reserve to cover future initiatives.
 
 # 2. Disclaimer
 
@@ -90,7 +90,7 @@ In practice, QCoin has three main functions for club members and stakeholders:
 2. It stores the QCoinClub membership tier information.
 3. It is also tradeable in a trustless and pseudonymous manner, with the potential to appreciate in value and become an investment in itself.
 
-Aditionally, given the tradable nature of the token (and the fact it can appreciate in value), Luxury lifestyle businesses receive a certain amount of QCoin for participation in the project, giving them a stake in the total market value of the QCoin itself and an incentive to join the project.
+Aditionally, given the tradable nature of the token (and the fact it can appreciate in value), Luxury lifestyle businesses receive a certain amount of QCoin for participation in the project, giving them a stake in the total market value of the QCoin itself and an incentive to join the project. Businesses can also participate in the QCN/ETH Liquidity Pools, further benefiting from the exchange fees.
 
 Please note, that altough intially the QCoin will not be used as a payment instrument, we do not rule out that in the future such option will be available.
 ## 5.2. QCoinClubPortal
@@ -112,7 +112,7 @@ The following membership tiering system has been put in place:
 | 10000 | 2 |
 | 100000 | 3 | 
 
-There is no other way of becoming a club member than obtaining at least one QCoin, which is equivalent to Tier 1 Membership.
+There is no other way of becoming a club member than obtaining at least one thousand QCoin, which is equivalent to Tier 1 Membership.
 
 ## 5.4. Unique products & services 
 
@@ -140,9 +140,9 @@ The product types offered by the club include, but are not limited to:
 
 The physical provision of the products and services is carried out by third-party companies that are in contract with the club to provide such services. During the onboarding process, we ask selected top lifestyle brands to design unique experiences exclusively for us.
 
-To incentivize third parties to join the network (and design unique experiences for the club), we reserve a pool of QCoin to be used as a reward. Third parties are rewarded one-off amount of QCoin from this pool, giving them a stake in the total market value of the QCoin itself.
+To incentivize third parties to join the network (and design unique experiences for the club), we reserve a pool of QCoin to be used as a reward. Third parties are rewarded one-off amount of QCoin from this pool, giving them a stake in the total market value of the QCoin itself. This also enables them to particpate in the Liquidity Pools for QCN/ETH pair that contributes extra income from owning the coin.
 
-Additionally, the vesting mechanism is in place to ensure coins are released in stages after a certain amount of value is delivered by the third-party provider.
+The vesting mechanism is in place to ensure coins are released in stages after a certain amount of value is delivered by the third-party provider.
 
 Ongoing development of the benefits offered is ensured. The long-term aim is to open this process as much as possible to the club members, whereby it's the members who decide on the type of services and products that are offered. The governance of this model is to be further discussed and developed.
 
@@ -166,22 +166,13 @@ The initial supply of QCoin has been divided into number of pools, each with a s
 
 | Pool | Percentage | Purpose |
 | --- | --- | --- |
-| 5250000 | 25% | Initial liqudity pool to facilitate public trading with a X years lock |
-| 15750000 | 75% | Pool reserved as QCoin club reserve, used for third party supplier onboarding, air-drops, etc. |
+| 4200000 | 20% | Initial liqudity pool to facilitate public trading with an initial 3 years developer lock. |
+| 16800000 | 80% | Pool reserved as QCoin club reserve, used for third party supplier onboarding, air-drops, etc. |
 ## 6.3. Liquidity & tradability
 
 The QCoin is tradabale like other ERC-20 assets. Although initially a number of coins will be kept by the club in a reserved pool to be used as an incentive for service providers, no restrictions will be introduced to the tradability of the QCoin.
 
-> The coin will be traded on Uniswap, etc. Initial pool of n will be reserved as liquidity to start trading in distributed exchanges. The inital price of the QCoin is 0.0001 ETH per token, which equals to the total market cap of XX
-
-> Initial market cap = 1100
-> Initial coin price = 
-> ETH or USDT?
-> 
-
-> LP token will be time locked to the time of 1,2,3,4,5 years.
-
-
+The coin is traded on Uniswap. Initial pool of 4200000 is to be reserved as the Liquidity Pool to start trading. The inital price of the QCoin has been set to 0.0001 ETH per token. LP token will be time locked for 3 years initially.
 ## 6.4. Governance
 
 QCoin's Smart Contract implements only the most essential ERC-20 functions. This has been decided to meet the key design goals for the QCoin token: 
@@ -225,10 +216,10 @@ The business entity managing QCoinClub is Flisacka Sp.z o. o., a limited company
 ## 8.1. Release of the QCoin Smart Contract - Aug 2021
 ERC-20 Smart Contract released on Ethereum MainNet.
 
-## Initial liquidity provision
+## 8.2. Initial liquidity provision - Sep 2021
 
-
-## 8.2. Start of provider onboarding - Sept 2021
+Initial Liquidity Pool will be established on Uniswap with 3 years LP lock
+## 8.3. Start of provider onboarding - Sept 2021
 
 Provider onboarding starts in August 2021 and continue indefinitely. The roadmap for provider onboarding is as follows:  
 
@@ -236,18 +227,16 @@ Provider onboarding starts in August 2021 and continue indefinitely. The roadmap
 * 25 providers onboarded by Feb 2022
 * 75 - Jun 2022
 * 200 - Dec 2022
-## 8.3. Release of the QCoinClubPortal v1.0 - Nov 2021
+## 8.4. Release of the QCoinClubPortal v1.0 - Nov 2021
 
 The development of the QCoinClubPortal starts in August 2021. The first production release of the software (v1.0) is to become available to all QCoin holders by the end of Nov 2021.
 
-## 8.4. Token air-drop - Dec 2021
+## 8.5. Token air-drop - Nov 2021
 
-The first QCoin air-drop is to be held in December 2021.
+The first QCoin air-drop is to start in November 2021.
 
 The aim of the air-drop is to build an initial community of QCoinClubPortal users and also boost the social media presence of the product. To maximize the impact and effectiveness of the air-drop, it is to be targeted so that only selected parties will be entitled to participate.
-
-1000 QCN to be distributed this way.
-## 8.7. QCoinClubPortal v2.0 - Jun 2022
+## 8.6. QCoinClubPortal v2.0 - Jun 2022
 
 The next major version QCoinclubPortal is released starting an ongoing release cycle. New releases to include features and improvements developed to answer the future needs of QCoinClub members.
 # 9. Architecture
@@ -278,7 +267,6 @@ QCoin is a standard ERC-20 smart contract deployed on Ethereum blockchain. It ha
 QCoinClubPortal front-end communicates with the smart contract via web3 libraries and a set of helper technologies, including WalletConnect and Infura.
 
 Working in conjunction with standard capabilities of Ethereum blockchain QCoin smart contract implements two key uses cases for QCoinClub members. It provides authentication by means of Etherum wallet connectivity (WalletConnect) and authorization by providing the membership tier bound to the amount of QCoin held in the wallet.
-
 ## 9.4. Back-office applications
 
 QCoinClub will also include a number of back-office business applications, including a Content Management System (CMS), Order Management System (OMS), Business Information System (BI/MI), etc.

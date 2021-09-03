@@ -2,7 +2,7 @@
 QCoinClub Whitepaper <!-- omit in toc -->
 ====================
 
-v0.86 (Draft - This is not the final version!)
+v0.87 (Draft - This is not the final version!)
 
 Author: Bo Dziewierz <bo@qcoinclub.com>
 
@@ -48,7 +48,7 @@ QCoinClub is a members-only luxury lifestyle club and concierge service backed b
 
 Members get access to the most exclusive venues, events, products, and experiences that are not available via other channels. We ensure the uniqueness of the services and products by asking selected top lifestyle brands to design unique experiences exclusively for us.
 
-The service is provided via mobile web application, QCoinClubPortal. Access to the portal is granted only to the club members, and club member privileges are awarded only to holders of at least 100 QCN (Tier 1 membership).
+The service is provided via mobile web application, QCoinClubPortal. Access to the portal is granted only to the club members, and club member privileges are awarded only to holders of at least 1000 QCN (Tier 1 membership).
 
 The QCoin token has been preminted to the amount of exactly 21000000 with 18 decimals. It will be initially distributed via air-drop and via Uniswap trading. Separate pools will be reserved for distributions among club service and product providers and as QCoinClub reserve to cover future initiatives.
 

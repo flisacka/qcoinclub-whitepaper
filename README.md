@@ -2,7 +2,7 @@
 QCoinClub Whitepaper <!-- omit in toc -->
 ====================
 
-v0.85 (Draft - This is not the final version!)
+v0.86 (Draft - This is not the final version!)
 
 Author: Bo Dziewierz <bo@qcoinclub.com>
 

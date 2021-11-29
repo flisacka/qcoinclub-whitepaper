@@ -27,7 +27,7 @@ Author: Bo Dziewierz <bo@qcoinclub.com>
     - [6.4.3. No burning](#643-no-burning)
     - [6.4.4. QCoin as a governance token](#644-qcoin-as-a-governance-token)
 - [7. Team](#7-team)
-  - [7.1. 7.1 Engineering](#71-71-engineering)
+  - [7.1. Engineering](#71-engineering)
   - [7.2. Business entity](#72-business-entity)
 - [8. Roadmap](#8-roadmap)
   - [8.1. Release of the QCoin Smart Contract - Aug 2021](#81-release-of-the-qcoin-smart-contract---aug-2021)
@@ -209,7 +209,7 @@ QCoin is not a security. As such, it does not guarantee equity, co-ownership, vo
 
 QCoinClub has been founded by a team of luxury travel and leisure veterans with current luxury travel and lifestyle business experience.
 
-## 7.1. 7.1 Engineering
+## 7.1. Engineering
 Bo Dziewierz - https://www.linkedin.com/in/bdziewierz/
 
 The team is growing and this whitepaper will be updated in the next versions to reflect that.

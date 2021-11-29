@@ -234,16 +234,16 @@ Provider onboarding starts in August 2021 and continue indefinitely. The roadmap
 * 25 providers onboarded by Feb 2022
 * 75 - Jun 2022
 * 200 - Dec 2022
-## 8.4. Release of the QCoinClubPortal v1.0 - Nov 2021
+## 8.4. Release of the QCoinClubPortal v1.0 - TBC
 
 The development of the QCoinClubPortal starts in August 2021. The first production release of the software (v1.0) is to become available to all QCoin holders by the end of Nov 2021.
 
-## 8.5. Token air-drop - Nov 2021
+## 8.5. Token air-drop - TBC
 
 The first QCoin air-drop is to start in November 2021.
 
 The aim of the air-drop is to build an initial community of QCoinClubPortal users and also boost the social media presence of the product. To maximize the impact and effectiveness of the air-drop, it is to be targeted so that only selected parties will be entitled to participate.
-## 8.6. QCoinClubPortal v2.0 - Jun 2022
+## 8.6. QCoinClubPortal v2.0 - TBC
 
 The next major version QCoinclubPortal is released starting an ongoing release cycle. New releases to include features and improvements developed to answer the future needs of QCoinClub members.
 # 9. Architecture
